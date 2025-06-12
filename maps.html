@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地图讲解 - GO学长 vs 瓦学弟</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-logo left-logo">
+            <img src="./img/cs-logo.png" alt="CS2 Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="comparison.html">游戏对比</a></li>
+                <li><a href="maps.html" class="active">地图讲解</a></li>
+                <li><a href="moments.html">精彩瞬间</a></li>
+                <li><a href="community.html">激情讨论</a></li>
+                <li><a href="about.html">关于我们</a></li>
+            </ul>
+        </nav>
+        <div class="nav-logo right-logo">
+            <img src="./img/val-logo.png" alt="无畏契约 Logo">
+        </div>
+    </header>
+
+    <main class="maps-container">
+        <section class="maps-carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="cs-dust2.html">
+                        <div class="map-cover" id="cs-cover">
+							<img src="./img/Cs2_dust2.webp" class="game-screenshot"/>
+						</div>
+                    </a>
+                </div>
+				<div class="carousel-item active">
+				    <a href="cs-dust2.html">
+				        <div class="map-cover" id="cs-cover">
+							<img src="./img/De_nuke_cs2.webp" class="game-screenshot"/>
+						</div>
+				    </a>
+				</div>
+				<div class="carousel-item active">
+				    <a href="cs-dust2.html">
+				        <div class="map-cover" id="cs-cover">
+							<img src="./img/Cs2_inferno_remake.webp" class="game-screenshot"/>
+						</div>
+				    </a>
+				</div>
+                <div class="carousel-item">
+                    <a href="cs-dust2.html">
+                        <div class="map-cover" id="val-cover">
+							<img src="./img/Loading_Screen_Bind.webp" class="game-screenshot"/>
+						</div>
+                    </a>
+                </div>
+				<div class="carousel-item">
+				    <a href="cs-dust2.html">
+				        <div class="map-cover" id="val-cover">
+							<img src="./img/Loading_Screen_Icebox.webp" class="game-screenshot"/>
+						</div>
+				    </a>
+				</div>
+				<div class="carousel-item">
+				    <a href="cs-dust2.html">
+				        <div class="map-cover" id="val-cover">
+							<img src="./img/Loading_Screen_Lotus.webp" class="game-screenshot"/>
+						</div>
+				    </a>
+				</div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-control prev" id="prevBtn">&#10094;</button>
+                <button class="carousel-control next" id="nextBtn">&#10095;</button>
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide-to="0"></span>
+                <span class="indicator" data-slide-to="1"></span>
+				<span class="indicator" data-slide-to="2"></span>
+				<span class="indicator" data-slide-to="3"></span>
+				<span class="indicator" data-slide-to="4"></span>
+				<span class="indicator" data-slide-to="5"></span>
+				<span class="indicator" data-slide-to="6"></span>
+            </div>
+        </section>
+
+        <section class="maps-tabs">
+            <div class="section-title">
+                <h1>地图详解</h1>
+            </div>
+            
+            <div class="maps-tab-btns">
+                <button class="maps-tab-btn active" data-tab="go-maps">Counter-Strike 2</button>
+                <button class="maps-tab-btn" data-tab="val-maps">无畏契约</button>
+            </div>
+            
+            <div class="maps-tab-content active" id="go-maps">
+                <div class="maps-grid">
+                    <!-- CS2地图列表 -->
+                    <div class="map-item">
+                        <a href="cs-dust2.html">
+                            <div class="map-thumbnail" id="cs-map1">
+                                <img src="./img/Cs2_dust2.webp" alt="Dust II" class="game-screenshot">
+                            </div>
+                            <div class="map-info">
+                                <h3>Dust II</h3>
+                                <p>炙热沙城II</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="map-item">
+                        <a href="cs-dust2.html">
+                            <div class="map-thumbnail" id="cs-map2">
+                                <img src="./img/De_mirage_cs2.webp" alt="Mirage" class="game-screenshot">
+                            </div>
+                            <div class="map-info">
+                                <h3>Mirage</h3>
+                                <p>荒漠迷城</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="map-item">
+                        <a href="cs-dust2.html">
+                            <div class="map-thumbnail" id="cs-map3">
+                                <img src="./img/Cs2_inferno_remake.webp" alt="Inferno" class="game-screenshot">
+                            </div>
+                            <div class="map-info">
+                                <h3>Inferno</h3>
+                                <p>炼狱小镇</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="map-item">
+                        <a href="cs-dust2.html">
+                            <div class="map-thumbnail" id="cs-map4">
+                                <img src="./img/De_nuke_cs2.webp" alt="Nuke" class="game-screenshot">
+                            </div>
+                            <div class="map-info">
+                                <h3>Nuke</h3>
+                                <p>核子危机</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="map-item">
+                        <a href="cs-dust2.html">
+                            <div class="map-thumbnail" id="cs-map5">
+                                <img src="./img/Overpass_loading_screen.webp" alt="Overpass" class="game-screenshot">
+                            </div>
+                            <div class="map-info">
+                                <h3>Overpass</h3>
+                                <p>死亡游乐园</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="map-item">
+                        <a href="cs-dust2.html">
+                            <div class="map-thumbnail" id="cs-map6">
+                                <img src="./img/De_vertigo_cs2.webp" alt="Vertigo" class="game-screenshot">
+                            </div>
+                            <div class="map-info">
+                                <h3>Vertigo</h3>
+                                <p>殒命大厦</p>
+                            </div>
+                        </a>
+                    </div>
+					<div class="map-item">
+					    <a href="cs-dust2.html">
+					        <div class="map-thumbnail" id="cs-map6">
+					            <img src="./img/De_train_cs2_new.webp" alt="Train" class="game-screenshot">
+					        </div>
+					        <div class="map-info">
+					            <h3>Train</h3>
+					            <p>列车停放站</p>
+					        </div>
+					    </a>
+					</div>
+					<div class="map-item">
+					    <a href="cs-dust2.html">
+					        <div class="map-thumbnail" id="cs-map6">
+					            <img src="./img/De_ancient_cs2.webp" alt="Ancient" class="game-screenshot">
+					        </div>
+					        <div class="map-info">
+					            <h3>Train</h3>
+					            <p>列车停放站</p>
+					        </div>
+					    </a>
+					</div>
+                </div>
+            </div>
+            
+            <div class="maps-tab-content" id="val-maps">
+                <div class="maps-grid">
+                    <!-- VALORANT地图列表 -->
+                    <div class="map-item">
+                        <a href="cs-dust2.html">
+                            <div class="map-thumbnail" id="val-map1">
+                                <img src="./img/Loading_Screen_Bind.webp" alt="Bind" class="game-screenshot">
+                            </div>
+                            <div class="map-info">
+                                <h3>Bind</h3>
+                                <p>源工重镇</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="map-item">
+                        <a href="cs-dust2.html">
+                            <div class="map-thumbnail" id="val-map2">
+                                <img src="./img/Loading_Screen_Haven.webp" alt="Haven" class="game-screenshot">
+                            </div>
+                            <div class="map-info">
+                                <h3>Haven</h3>
+                                <p>隐世修所</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="map-item">
+                        <a href="cs-dust2.html">
+                            <div class="map-thumbnail" id="val-map3">
+                                <img src="./img/Loading_Screen_Split.webp" alt="Split" class="game-screenshot">
+                            </div>
+                            <div class="map-info">
+                                <h3>Split</h3>
+                                <p>霓虹町</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="map-item">
+                        <a href="cs-dust2.html">
+                            <div class="map-thumbnail" id="val-map4">
+                                <img src="./img/Loading_Screen_Ascent.webp" alt="Ascent" class="game-screenshot">
+                            </div>
+                            <div class="map-info">
+                                <h3>Ascent</h3>
+                                <p>亚海悬城</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="map-item">
+                        <a href="cs-dust2.html">
+                            <div class="map-thumbnail" id="val-map5">
+                                <img src="./img/Loading_Screen_Icebox.webp" alt="Icebox" class="game-screenshot">
+                            </div>
+                            <div class="map-info">
+                                <h3>Icebox</h3>
+                                <p>森寒冬港</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="map-item">
+                        <a href="cs-dust2.html">
+                            <div class="map-thumbnail" id="val-map6">
+                                <img src="./img/Loading_Screen_Breeze.webp" alt="Breeze" class="game-screenshot">
+                            </div>
+                            <div class="map-info">
+                                <h3>Breeze</h3>
+                                <p>微风岛屿</p>
+                            </div>
+                        </a>
+                    </div>
+					<div class="map-item">
+					    <a href="cs-dust2.html">
+					        <div class="map-thumbnail" id="val-map6">
+					            <img src="./img/Loading_Screen_Fracture.webp" alt="Fracture" class="game-screenshot">
+					        </div>
+					        <div class="map-info">
+					            <h3>Fracture</h3>
+					            <p>裂变峡谷</p>
+					        </div>
+					    </a>
+					</div>
+					<div class="map-item">
+					    <a href="cs-dust2.html">
+					        <div class="map-thumbnail" id="val-map6">
+					            <img src="./img/Loading_Screen_Pearl.webp" alt="Pearl" class="game-screenshot">
+					        </div>
+					        <div class="map-info">
+					            <h3>Pearl</h3>
+					            <p>深海明珠</p>
+					        </div>
+					    </a>
+					</div>
+					<div class="map-item">
+					    <a href="cs-dust2.html">
+					        <div class="map-thumbnail" id="val-map6">
+					            <img src="./img/Loading_Screen_Lotus.webp" alt="Lotus" class="game-screenshot">
+					        </div>
+					        <div class="map-info">
+					            <h3>Lotus</h3>
+					            <p>莲华古城</p>
+					        </div>
+					    </a>
+					</div>
+					<div class="map-item">
+					    <a href="cs-dust2.html">
+					        <div class="map-thumbnail" id="val-map6">
+					            <img src="./img/Loading_Screen_Sunset.webp" alt="Sunset" class="game-screenshot">
+					        </div>
+					        <div class="map-info">
+					            <h3>Sunset</h3>
+					            <p>日落之城</p>
+					        </div>
+					    </a>
+					</div>
+					<div class="map-item">
+					    <a href="cs-dust2.html">
+					        <div class="map-thumbnail" id="val-map6">
+					            <img src="./img/Loading_Screen_Abyss.webp" alt="Abyss" class="game-screenshot">
+					        </div>
+					        <div class="map-info">
+					            <h3>Abyss</h3>
+					            <p>幽邃地窖</p>
+					        </div>
+					    </a>
+					</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/maps.js"></script>
+</body>
+
+<footer>
+    <p>© 2024 GO学长 vs 瓦学弟 | 所有权利保留</p>
+</footer>
+</html>
